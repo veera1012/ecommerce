@@ -70,3 +70,87 @@ main {
 .cart ul li {
     margin: 5px 0;
 }
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact label {
+    margin-top: 40px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 28px;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    background: url('https://www.shutterstock.com/image-vector/seamless-pattern-shopping-sale-thin-260nw-1245718864.jpg') no-repeat center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 10px 0px ;
+    padding: 10px;
+    background-color: #6c529c;
+    color: rgb(35, 181, 133);
+    box-shadow: 0 0 10px rgba(118, 104, 104, 0.1);
+}
+
+.about h2 {
+    margin-top: 0;
+    color: black;
+}
